@@ -1,0 +1,26 @@
+.header
+  display: flex
+  justify-content: space-between
+  padding: 40px 50px
+
+  &__nav
+    margin: -40px -50px 0 0
+    padding: 40px 50px 50px 210px
+    background: url('../App/assets/Background/Wave_Blue-Gradient.png'), url('../App/assets/Background/Wave_Blue-Gradient.png')
+      repeat: no-repeat
+      position: top right
+      size: 100% 100%, 75% 90%
+
+  &__item
+    margin: 3px
+    padding: 6px 24px 9px
+    font-family: "Rotonda Bold"
+    font-size: 1.6em
+    color: white
+    text-decoration: none
+
+    &:hover,&:focus
+      margin: 0
+      border: 3px solid
+      border-image-slice: 1
+      border-image-source: linear-gradient(135deg, rgba(253, 206, 125, 1), rgba(175, 112, 57, 1), rgba(175, 112, 57, 1), rgba(253, 206, 125, 1))

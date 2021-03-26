@@ -1,0 +1,40 @@
+.props
+  min-height: 800px
+  padding: 150px 0 230px
+  text-align: center
+  background: url('./assets/background/back--top.png'), url('./assets/background/back--top.png'), url('./assets/background/back--bottom.png'), url('./assets/background/back--bottom.png'), linear-gradient(135deg, rgba(253, 206, 125, 1), rgba(175, 112, 57, 1), rgba(175, 112, 57, 1), rgba(253, 206, 125, 1))
+    repeat: no-repeat
+    position: top, top, bottom, bottom, top
+    size: 100% 106px, 100% 142px, 100% 282px,100% 384px, 100% 100%
+
+  &__list
+    width: calc(100% + 90px)
+    display: flex
+    justify-content: space-between
+    gap: 10px
+
+  &__item
+    display: flex
+    justify-content: space-between
+    align-items: center
+    gap: 10px
+
+    &:first-child .props__content
+      max-width: 205px
+
+  &__icon
+    display: inline-flex
+    justify-content: space-around
+    width: 100px
+    height: 100px
+    border-radius: 50%
+    background: #ffffff
+
+    img
+      width: 46px
+
+  &__content
+    display: inline-block
+    width: calc(100% - 100px)
+    max-width: 252px
+    text-align: left
