@@ -18,8 +18,8 @@ const Stock = () => {
                         <p className="p--18 p--white">Еженедельный розыгрыш суперприза:</p>
                         <span className="stock__price">100 000</span>
                         <span className="stock__price stock__price--s">рублей<sup>2</sup></span>
-                        <p>на заботу о малыше</p>
-                        <p><b>+ 10 000 рублей</b> будут перечислены в благотворительный фонд</p>
+                        <p className="p--24 p--white">на заботу о малыше</p>
+                        <p className="stock__char p--18 p--white"><b className="b--24">+ 10 000 рублей</b> будут перечислены в благотворительный фонд<sup>4</sup></p>
                         <div className="stock__icon">
                             <img src={gift_big} alt="Big gift"/>
                         </div>

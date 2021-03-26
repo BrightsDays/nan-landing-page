@@ -5,6 +5,7 @@ import Props from "../Props/Props";
 import './App.sass';
 import Stock from "../Stock/Stock";
 import Products from "../Products/Products";
+import Footer from "../Footer/Footer";
 
 const App = () => {
     return(
@@ -14,6 +15,7 @@ const App = () => {
             <Props />
             <Stock />
             <Products />
+            <Footer />
         </div>
     )
 };

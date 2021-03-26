@@ -3,7 +3,7 @@ import './Button.sass';
 const Button = ({ text, action, mod}) => {
     let buttonClass = 'button';
     if (mod) {
-        buttonClass += ' ' + mod;
+        buttonClass = buttonClass + ' ' + (buttonClass + mod);
     }
 
     return(
