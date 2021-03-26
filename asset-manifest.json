@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/nan-landing-page/static/css/main.506aac37.chunk.css",
+    "main.js": "/nan-landing-page/static/js/main.d498ed3e.chunk.js",
+    "main.js.map": "/nan-landing-page/static/js/main.d498ed3e.chunk.js.map",
+    "runtime-main.js": "/nan-landing-page/static/js/runtime-main.25f4923d.js",
+    "runtime-main.js.map": "/nan-landing-page/static/js/runtime-main.25f4923d.js.map",
+    "static/js/2.900c3e3e.chunk.js": "/nan-landing-page/static/js/2.900c3e3e.chunk.js",
+    "static/js/2.900c3e3e.chunk.js.map": "/nan-landing-page/static/js/2.900c3e3e.chunk.js.map",
+    "index.html": "/nan-landing-page/index.html",
+    "static/css/main.506aac37.chunk.css.map": "/nan-landing-page/static/css/main.506aac37.chunk.css.map",
+    "static/js/2.900c3e3e.chunk.js.LICENSE.txt": "/nan-landing-page/static/js/2.900c3e3e.chunk.js.LICENSE.txt",
+    "static/media/App.sass": "/nan-landing-page/static/media/RotondaC.663b3ee9.ttf",
+    "static/media/Promo.sass": "/nan-landing-page/static/media/background--web.a3f673a5.jpg",
+    "static/media/Header.sass": "/nan-landing-page/static/media/Wave_Blue-Gradient.a2b25c3b.png",
+    "static/media/Props.sass": "/nan-landing-page/static/media/back--top.1456b55b.png",
+    "static/media/box.ed67d15a.svg": "/nan-landing-page/static/media/box.ed67d15a.svg",
+    "static/media/Stock.sass": "/nan-landing-page/static/media/boxes-right.1e84aa2f.svg",
+    "static/media/detskie_serdtsa.a90546f2.svg": "/nan-landing-page/static/media/detskie_serdtsa.a90546f2.svg",
+    "static/media/doroga_zhizni.39fcb3dc.svg": "/nan-landing-page/static/media/doroga_zhizni.39fcb3dc.svg",
+    "static/media/gift--1.c4e2e9c7.svg": "/nan-landing-page/static/media/gift--1.c4e2e9c7.svg",
+    "static/media/gift--2.055d1c9b.svg": "/nan-landing-page/static/media/gift--2.055d1c9b.svg",
+    "static/media/gift--big.fd8a03e1.svg": "/nan-landing-page/static/media/gift--big.fd8a03e1.svg",
+    "static/media/liniya_jhizni.c9a6dbd4.svg": "/nan-landing-page/static/media/liniya_jhizni.c9a6dbd4.svg",
+    "static/media/nan_3.35ec2758.png": "/nan-landing-page/static/media/nan_3.35ec2758.png",
+    "static/media/nan_4.50840708.png": "/nan-landing-page/static/media/nan_4.50840708.png",
+    "static/media/nan_logo.c90ebf10.svg": "/nan-landing-page/static/media/nan_logo.c90ebf10.svg",
+    "static/media/nan_product.184bd63c.png": "/nan-landing-page/static/media/nan_product.184bd63c.png",
+    "static/media/podary_jhizn.1a95e3d7.svg": "/nan-landing-page/static/media/podary_jhizn.1a95e3d7.svg",
+    "static/media/Products.sass": "/nan-landing-page/static/media/product__back--top.8a5d7861.png",
+    "static/media/reg.5e51a166.svg": "/nan-landing-page/static/media/reg.5e51a166.svg",
+    "static/media/win.b8518bd3.svg": "/nan-landing-page/static/media/win.b8518bd3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25f4923d.js",
+    "static/js/2.900c3e3e.chunk.js",
+    "static/css/main.506aac37.chunk.css",
+    "static/js/main.d498ed3e.chunk.js"
+  ]
+}
