@@ -21,13 +21,13 @@ const Props = () => {
                         <div className="props__icon">
                             <img src={box} alt="Gift box"/>
                         </div>
-                        <p className="props__content p--18 p--white"><b className="b--18">Получите гарантированный</b> кэшбек на телефон<sup>1</sup> и <b className="b--18">помогайте детям<sup>2</sup></b></p>
+                        <p className="props__content p--18 p--white"><b className="b--18">Получите гарантированный</b> кэшбек на телефон<sup className="sup">1</sup> и <b className="b--18">помогайте детям<sup className="sup">3</sup></b></p>
                     </div>
                     <div className="props__item">
                         <div className="props__icon">
                             <img src={win} alt="Contest"/>
                         </div>
-                        <p className="props__content p--18 p--white"><b className="b--18">Участвуйте в еженедельном розыгрыше 100 000 руб!<sup>2</sup></b></p>
+                        <p className="props__content p--18 p--white"><b className="b--18">Участвуйте в еженедельном розыгрыше 100 000 руб!<sup className="sup">2</sup></b></p>
                     </div>
                 </div>
                 <Button text="Зарегистрировать" />

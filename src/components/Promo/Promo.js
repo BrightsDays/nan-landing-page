@@ -1,9 +1,9 @@
 import './Promo.sass';
-import product from '../App/assets/img/nan_product.png';
-import podaryZhizn from '../App/assets/img/podary_jhizn.svg';
-import liniyaJhizni from '../App/assets/img/liniya_jhizni.svg';
-import dorogaZhizni from '../App/assets/img/doroga_zhizni.svg';
-import detskieSerdtsa from '../App/assets/img/detskie_serdtsa.svg';
+import product from './assets/img/nan_product.png';
+import podaryZhizn from './assets/img/podary_jhizn.svg';
+import liniyaJhizni from './assets/img/liniya_jhizni.svg';
+import dorogaZhizni from './assets/img/doroga_zhizni.svg';
+import detskieSerdtsa from './assets/img/detskie_serdtsa.svg';
 import Button from "../Button/Button";
 
 
@@ -11,7 +11,7 @@ const Promo = () => {
     return(
         <div className="promo">
             <div className="wrap">
-                <h1 className="h1">Вместе заботимся о малышах!</h1>
+                <h1 className="h1">Вместе заботимся о малышах!<sup className="sup--squad sup--pink">3</sup></h1>
                 <p className="p--rbold p--24 p--blue">Получайте гарантированный подарок и помогайте детям!</p>
                 <div className="promo__reg">
                     <input className="promo__input" placeholder="Ввести код" />
