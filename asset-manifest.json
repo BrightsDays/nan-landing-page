@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nan-landing-page/static/css/main.506aac37.chunk.css",
-    "main.js": "/nan-landing-page/static/js/main.d498ed3e.chunk.js",
-    "main.js.map": "/nan-landing-page/static/js/main.d498ed3e.chunk.js.map",
+    "main.css": "/nan-landing-page/static/css/main.cc88b3ec.chunk.css",
+    "main.js": "/nan-landing-page/static/js/main.4a5df889.chunk.js",
+    "main.js.map": "/nan-landing-page/static/js/main.4a5df889.chunk.js.map",
     "runtime-main.js": "/nan-landing-page/static/js/runtime-main.25f4923d.js",
     "runtime-main.js.map": "/nan-landing-page/static/js/runtime-main.25f4923d.js.map",
-    "static/js/2.900c3e3e.chunk.js": "/nan-landing-page/static/js/2.900c3e3e.chunk.js",
-    "static/js/2.900c3e3e.chunk.js.map": "/nan-landing-page/static/js/2.900c3e3e.chunk.js.map",
+    "static/js/2.4defac0a.chunk.js": "/nan-landing-page/static/js/2.4defac0a.chunk.js",
+    "static/js/2.4defac0a.chunk.js.map": "/nan-landing-page/static/js/2.4defac0a.chunk.js.map",
     "index.html": "/nan-landing-page/index.html",
-    "static/css/main.506aac37.chunk.css.map": "/nan-landing-page/static/css/main.506aac37.chunk.css.map",
-    "static/js/2.900c3e3e.chunk.js.LICENSE.txt": "/nan-landing-page/static/js/2.900c3e3e.chunk.js.LICENSE.txt",
+    "static/css/main.cc88b3ec.chunk.css.map": "/nan-landing-page/static/css/main.cc88b3ec.chunk.css.map",
+    "static/js/2.4defac0a.chunk.js.LICENSE.txt": "/nan-landing-page/static/js/2.4defac0a.chunk.js.LICENSE.txt",
     "static/media/App.sass": "/nan-landing-page/static/media/RotondaC.663b3ee9.ttf",
     "static/media/Promo.sass": "/nan-landing-page/static/media/background--web.a3f673a5.jpg",
     "static/media/Header.sass": "/nan-landing-page/static/media/Wave_Blue-Gradient.a2b25c3b.png",
@@ -22,6 +22,7 @@
     "static/media/gift--2.055d1c9b.svg": "/nan-landing-page/static/media/gift--2.055d1c9b.svg",
     "static/media/gift--big.fd8a03e1.svg": "/nan-landing-page/static/media/gift--big.fd8a03e1.svg",
     "static/media/liniya_jhizni.c9a6dbd4.svg": "/nan-landing-page/static/media/liniya_jhizni.c9a6dbd4.svg",
+    "static/media/menu.f76b8f25.svg": "/nan-landing-page/static/media/menu.f76b8f25.svg",
     "static/media/nan_3.35ec2758.png": "/nan-landing-page/static/media/nan_3.35ec2758.png",
     "static/media/nan_4.50840708.png": "/nan-landing-page/static/media/nan_4.50840708.png",
     "static/media/nan_logo.c90ebf10.svg": "/nan-landing-page/static/media/nan_logo.c90ebf10.svg",
@@ -29,12 +30,13 @@
     "static/media/podary_jhizn.1a95e3d7.svg": "/nan-landing-page/static/media/podary_jhizn.1a95e3d7.svg",
     "static/media/Products.sass": "/nan-landing-page/static/media/product__back--top.8a5d7861.png",
     "static/media/reg.5e51a166.svg": "/nan-landing-page/static/media/reg.5e51a166.svg",
+    "static/media/user.85c73d91.svg": "/nan-landing-page/static/media/user.85c73d91.svg",
     "static/media/win.b8518bd3.svg": "/nan-landing-page/static/media/win.b8518bd3.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.25f4923d.js",
-    "static/js/2.900c3e3e.chunk.js",
-    "static/css/main.506aac37.chunk.css",
-    "static/js/main.d498ed3e.chunk.js"
+    "static/js/2.4defac0a.chunk.js",
+    "static/css/main.cc88b3ec.chunk.css",
+    "static/js/main.4a5df889.chunk.js"
   ]
 }
