@@ -3,9 +3,11 @@
   padding: 30px
 
   &__nav
-    display: flex
+    display: inline-flex
+    flex-wrap: wrap
     gap: 40px
     margin-bottom: 37px
+    margin-left: 10px
 
   &__item
     color: #ffffff
@@ -17,3 +19,33 @@
 
     &:hover,&:focus
       text-decoration: underline
+
+  .social
+    display: inline-flex
+    gap: 16px
+    margin-left: 10px
+    vertical-align: middle
+
+    &__icon
+      display: inline-flex
+      justify-content: space-around
+      align-items: center
+      width: 30px
+      height: 30px
+      border-radius: 50%
+      cursor: pointer
+
+      &--ok
+        background-color: #F48420
+
+      &--vk
+        background-color: #597DA3
+
+      &--fb
+        background-color: #3C5EA4
+
+@media screen and (max-width: 760px)
+  .footer
+    margin-top: -100px
+    padding: 30px 20px
+    text-align: center

@@ -176,3 +176,47 @@ body
   .wrap
     padding-left: 20px
     padding-right: 20px
+
+@media screen and (max-width: 760px)
+  .wrap
+    width: 320px
+
+  .h1
+    font-size: 2.4em
+    line-height: 30px
+
+  .h2
+    font-size: 2.4em
+    line-height: 24px
+
+  .p
+    &--18
+      font-size: 1.6em
+      line-height: 18px
+
+    &--24
+      font-size: 1.6em
+      line-height: 20px
+
+    &--36
+      font-size: 2.4em
+      line-height: 24px
+
+  .span--gold
+    font-size: 2.4em
+    line-height: 24px
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active)
+  .span--gold
+    color: rgb(175, 112, 57)
+    background: none
+
+  .sup
+    &--squad
+      color: inherit
+
+      &:after
+        display: none
+
+    &--gold
+      background: none

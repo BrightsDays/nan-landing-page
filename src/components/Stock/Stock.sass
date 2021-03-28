@@ -74,3 +74,27 @@
         width: 67px
         bottom: 33%
         left: 22%
+
+@media screen and (max-width: 760px)
+  .stock
+    background: none
+
+    &__grid
+      grid-template-columns: repeat(1, 1fr)
+
+    &__daily
+      min-height: 280px
+      grid-column: 1
+      grid-row: 3 / 6
+      padding: 15px 20px 20px
+
+    &__price
+      line-height: 77px
+
+      &--s
+        line-height: 97px
+
+    &__char
+      max-width: 148px
+      left: 20px
+      bottom: 15px

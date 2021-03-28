@@ -5,18 +5,35 @@ import liniyaJhizni from './assets/img/liniya_jhizni.svg';
 import dorogaZhizni from './assets/img/doroga_zhizni.svg';
 import detskieSerdtsa from './assets/img/detskie_serdtsa.svg';
 import Button from "../Button/Button";
-
+import useWindowSize from "../../service/useWindowSize";
 
 const Promo = () => {
+    const size = useWindowSize();
+
+    const PromoReg = () => {
+        if (size.width > 760) {
+            return(
+                <div className="promo__reg">
+                    <input className="promo__input" placeholder="Ввести код" />
+                    <Button text="Зарегистрировать" />
+                </div>
+            );
+        } else {
+            return(
+                <div className="promo__reg">
+                    <input className="promo__input" placeholder="E-mail" />
+                    <Button text="Напомнить о начале" />
+                </div>
+            );
+        }
+    }
+
     return(
         <div className="promo">
             <div className="wrap">
                 <h1 className="h1">Вместе заботимся о малышах!<sup className="sup--squad sup--pink">3</sup></h1>
                 <p className="p--rbold p--24 p--blue">Получайте гарантированный подарок и помогайте детям!</p>
-                <div className="promo__reg">
-                    <input className="promo__input" placeholder="Ввести код" />
-                    <Button text="Зарегистрировать" />
-                </div>
+                <PromoReg />
                 <p className="promo__info p--rob p--18 p--black mb--27">Вы можете зарегистрировать код через приложение «Whats App» по номеру <b className="b--18">+7 (916) 000-10-66</b></p>
                 <img  className="promo__product mb--33" src={product} alt="product" />
                 <div className="promo-total">

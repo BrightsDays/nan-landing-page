@@ -2,10 +2,10 @@
   margin-top: -180px
   margin-bottom: -80px
   padding: 80px 0
-  background: url('assets/background/Wave_Blue-Gradient--bottom.png'), url('assets/background/Wave_Blue-Gradient--bottom.png'), url('assets/background/background--web.jpg')
+  background: url('assets/background/Wave_Blue-Gradient--bottom.png'), url('assets/background/Wave_Blue-Gradient--bottom.png'), url('assets/background/White.png'), url('assets/background/Yellow.png'), url('assets/background/B-White.png'), url('assets/background/B-Yellow.png'), url('assets/background/White_2.png'), url('assets/background/Yellow_2.png'), url('assets/background/B-White_2.png'), url('assets/background/B-Yellow_2.png'), url('assets/background/background--web.jpg')
     repeat: no-repeat
-    position: bottom 80px left, bottom 80px left, top
-    size: 100% 40%, 100% 30%, cover
+    position: bottom 80px left, bottom 80px left, left top, left top, left top, left top, right bottom, right bottom, right bottom, right bottom, top
+    size: 100% 40%, 100% 30%, auto auto, auto auto, auto auto, auto auto, auto auto, auto auto, auto auto, auto auto, cover
 
   &__reg
     width: 467px
@@ -15,7 +15,7 @@
     text-align: right
 
   &__input
-    width: 263px
+    width: 235px
     margin-right: 4px
     padding: 12px 4px 15px 21px
     font-family: 'Roboto', sans-serif
@@ -53,3 +53,41 @@
 
     &-total
       padding-left: 10px
+
+@media screen and (max-width: 760px)
+  .promo
+    text-align: center
+    padding-top: 120px
+    background: url('assets/background/Wave_Blue-Gradient--bottom--mob.png'), url('assets/background/Wave_Blue-Gradient--bottom--mob.png'), url('assets/background/White.png'), url('assets/background/Yellow.png'), url('assets/background/B-White.png'), url('assets/background/B-Yellow.png'), url('assets/background/White_2.png'), url('assets/background/Yellow_2.png'), url('assets/background/B-White_2.png'), url('assets/background/B-Yellow_2.png'), url('assets/background/background--mob.jpg'), #e5e5e5
+      repeat: no-repeat
+      position: bottom 80px left, bottom 80px left, left top, left top, left top, left top, right bottom, right bottom, right bottom, right bottom, bottom 56% center
+      size: 100% 40%, 100% 30%, auto auto, auto auto, auto auto, auto auto, auto auto, auto auto, auto auto, auto auto, auto
+
+
+    &__reg
+      width: 100%
+
+    &__input
+      display: block
+      width: 100%
+      margin: 0
+      text-align: center
+
+    .button
+      width: 100%
+
+    &__product
+      max-width: calc(100% + 40px)
+      margin: 285px -20px 0
+
+    &-total
+      flex-wrap: wrap
+      padding: 4px
+      gap: 5px
+
+      &__item
+        width: 60px
+
+      &__count
+        width: 100%
+        margin: 0

@@ -32,3 +32,23 @@
     &--plus
       width: 13%
       text-align: center
+
+@media screen and (max-width: 760px)
+  .stock-card
+    &__header
+      padding: 16px 20px
+
+    &__price
+      .span--gold
+        font-size: 3.2em
+        line-height: 41px
+
+    &__content
+      padding: 11px 15px 9px
+
+      p
+        font-size: 1.4em
+
+      &--left,&--right,&--plus
+        width: 100%
+        text-align: left

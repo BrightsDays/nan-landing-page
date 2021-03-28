@@ -1,4 +1,7 @@
 import './Footer.sass';
+import ok from './assets/icons/ok.svg';
+import vk from './assets/icons/vk.svg';
+import fb from './assets/icons/f.svg';
 
 const Footer = () => {
     const Nav = ({ items }) => {
@@ -18,6 +21,11 @@ const Footer = () => {
 
         <div className="footer wrap wrap--1440">
             <Nav items={['Полные правила акции', 'Политика конфиденциальности', 'Рассказать друзьям']} />
+            <div className="social">
+                <div className="social__icon social__icon--ok"><img src={ok} alt="OK"/></div>
+                <div className="social__icon social__icon--vk"><img src={vk} alt="VK"/></div>
+                <div className="social__icon social__icon--fb"><img src={fb} alt="FB"/></div>
+            </div>
             <p className="p--12 p--white mb--17">
                 Всемирная организация здравоохранения рекомендует исключительно грудное вскармливание в первые 6 месяцев и его продолжение в течение как можно более долгого периода. Детское молочко NAN   3 OPTIPRO   и NAN   4 OPTIPRO   разработаны с учетом пищевых потребностей здоровых детей старше 1/1,5 лет соответственно и не должны применяться для кормления детей более младшего возраста. Не являются заменителем грудного молока. Необходима консультация специалиста. Товар зарегистрирован. Полный список подарков — на сайте www.nestlebaby.ru/nan3promo.
             </p>
