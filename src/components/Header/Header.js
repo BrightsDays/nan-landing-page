@@ -30,7 +30,11 @@ const Header = () => {
                         <img src={user} alt="Login" />
                     </a>
                     <a className="header__item" href="">
-                        <img src={menu} alt="Menu" />
+                        <img src={menu}
+                             alt="Menu"
+                             onClick={e => {
+                                 e.preventDefault();
+                             }} />
                     </a>
                 </nav>
             );

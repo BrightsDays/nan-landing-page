@@ -4,10 +4,10 @@
 
   &__nav
     display: inline-flex
-    flex-wrap: wrap
     gap: 40px
     margin-bottom: 37px
     margin-left: 10px
+    align-items: center
 
   &__item
     color: #ffffff
@@ -23,7 +23,6 @@
   .social
     display: inline-flex
     gap: 16px
-    margin-left: 10px
     vertical-align: middle
 
     &__icon
@@ -44,8 +43,19 @@
       &--fb
         background-color: #3C5EA4
 
-@media screen and (max-width: 760px)
+@media screen and (max-width: 880px)
+  .footer
+    &__nav
+      gap: 10px
+
+@media screen and (max-width: 780px)
   .footer
     margin-top: -100px
     padding: 30px 20px
     text-align: center
+
+    &__nav
+      gap: 16px
+      flex-direction: column
+      justify-content: center
+      margin-bottom: 17px

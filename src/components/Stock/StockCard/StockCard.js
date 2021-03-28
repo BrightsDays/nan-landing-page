@@ -12,15 +12,13 @@ const StockCard = ({ weight, price, icon }) => {
             </div>
             <div className="stock-card__content">
                 <div className="stock-card__content--left">
-                    <p className="p--18 p--rob"><b className="b--18">{0.75 * price} рублей</b></p>
-                    <p className="p--18 p--rob">вам на телефон</p>
+                    <p className="p--18 p--rob"><b className="b--18">{0.75 * price} рублей</b> вам на телефон</p>
                 </div>
                 <div className="stock-card__content--plus">
                     <p className="p--18 p--rob"><b className="b--18">+</b></p>
                 </div>
                 <div className="stock-card__content--right">
-                    <p className="p--18 p--rob"><b className="b--18">{0.25 * price} рублей*</b></p>
-                    <p className="p--18 p--rob">будут перечислены в благотворительный фонд на ваш выбор</p>
+                    <p className="p--18 p--rob"><b className="b--18">{0.25 * price} рублей*</b> будут перечислены в благотворительный фонд на ваш выбор</p>
                 </div>
             </div>
         </div>

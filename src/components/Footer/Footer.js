@@ -2,30 +2,48 @@ import './Footer.sass';
 import ok from './assets/icons/ok.svg';
 import vk from './assets/icons/vk.svg';
 import fb from './assets/icons/f.svg';
+import useWindowSize from "../../service/useWindowSize";
 
 const Footer = () => {
+
     const Nav = ({ items }) => {
-        return(
-            <nav className="footer__nav">
-                {items &&
-                items.map((item, index) => (
-                    <a className="footer__item" href="" key={index}>
-                        {item}
-                    </a>
-                ))}
-            </nav>
-        );
+        const size = useWindowSize();
+
+        if (size.width > 880) {
+            return(
+                <nav className="footer__nav">
+                    {items &&
+                    items.map((item, index) => (
+                        <a className="footer__item" href="" key={index}>
+                            {item}
+                        </a>
+                    ))}
+                    <div className="social">
+                        <div className="social__icon social__icon--ok"><img src={ok} alt="OK"/></div>
+                        <div className="social__icon social__icon--vk"><img src={vk} alt="VK"/></div>
+                        <div className="social__icon social__icon--fb"><img src={fb} alt="FB"/></div>
+                    </div>
+                </nav>
+            );
+        } else {
+            return (
+                <nav className="footer__nav">
+                    <a className="footer__item" href="">Рассказать друзьям</a>
+                    <div className="social">
+                        <div className="social__icon social__icon--ok"><img src={ok} alt="OK"/></div>
+                        <div className="social__icon social__icon--vk"><img src={vk} alt="VK"/></div>
+                        <div className="social__icon social__icon--fb"><img src={fb} alt="FB"/></div>
+                    </div>
+                    <a className="footer__item" href="">Полные правила акции</a>
+                    <a className="footer__item" href="">Политика конфиденциальности</a>
+                </nav>
+            );
+        }
     };
 
     return(
-
         <div className="footer wrap wrap--1440">
             <Nav items={['Полные правила акции', 'Политика конфиденциальности', 'Рассказать друзьям']} />
-            <div className="social">
-                <div className="social__icon social__icon--ok"><img src={ok} alt="OK"/></div>
-                <div className="social__icon social__icon--vk"><img src={vk} alt="VK"/></div>
-                <div className="social__icon social__icon--fb"><img src={fb} alt="FB"/></div>
-            </div>
             <p className="p--12 p--white mb--17">
                 Всемирная организация здравоохранения рекомендует исключительно грудное вскармливание в первые 6 месяцев и его продолжение в течение как можно более долгого периода. Детское молочко NAN   3 OPTIPRO   и NAN   4 OPTIPRO   разработаны с учетом пищевых потребностей здоровых детей старше 1/1,5 лет соответственно и не должны применяться для кормления детей более младшего возраста. Не являются заменителем грудного молока. Необходима консультация специалиста. Товар зарегистрирован. Полный список подарков — на сайте www.nestlebaby.ru/nan3promo.
             </p>
