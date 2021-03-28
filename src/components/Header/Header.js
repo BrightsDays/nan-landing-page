@@ -4,6 +4,7 @@ import './Header.sass';
 import logo from './assets/img/nan_logo.svg';
 import user from '../Header/assets/icons/user.svg';
 import menu from '../Header/assets/icons/menu.svg';
+import close from '../Header/assets/icons/close.svg'
 
 
 const Header = () => {
@@ -34,8 +35,31 @@ const Header = () => {
                              alt="Menu"
                              onClick={e => {
                                  e.preventDefault();
+                                 document.querySelector('.burger').classList.add('burger--show');
+                                 document.body.style.overflow = 'hidden';
                              }} />
                     </a>
+                    <div className="burger">
+                        {items &&
+                        items.map((item, index) => (
+                            <a className="burger__item"
+                               href=""
+                               key={index}>
+                                {item}
+                            </a>
+                        ))}
+                        <a className="burger__item" href="">Полные правила акции</a>
+                        <a className="burger__item" href="">Политика конфиденциальности</a>
+                        <a className="burger__close" href="">
+                            <img src={close}
+                                 alt="close"
+                                 onClick={e => {
+                                     e.preventDefault();
+                                     document.querySelector('.burger').classList.remove('burger--show');
+                                     document.body.style.overflow = 'hidden scroll';
+                                 }}/>
+                        </a>
+                    </div>
                 </nav>
             );
         }
