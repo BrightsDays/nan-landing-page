@@ -56,3 +56,19 @@
       &--left,&--right
         p
           width: auto
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active)
+  .stock-card
+    &:nth-child(1)
+      width: 468px
+      -ms-grid-column: 1
+      -ms-grid-row: 1
+
+    &:nth-child(2)
+      width: 468px
+      -ms-grid-column: 1
+      -ms-grid-row: 3
+
+    &__header
+      img
+        width: 80px

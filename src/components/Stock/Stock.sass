@@ -102,3 +102,17 @@
       max-width: 148px
       left: 20px
       bottom: 15px
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active)
+  .stock
+    &__grid
+      display: -ms-grid
+      width: 100%
+      -ms-grid-columns: 1fr 19px 1fr
+      -ms-grid-rows: 1fr 19px 1fr
+
+    &__daily
+      width: 468px
+      -ms-grid-column: 3
+      -ms-grid-row: 1
+      -ms-grid-row-span: 3
